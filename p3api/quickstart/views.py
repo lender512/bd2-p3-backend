@@ -200,8 +200,9 @@ class FaceVectorKDTree(mixins.ListModelMixin,
 
         rng = np.random.RandomState(0)
         execution_time = time.time()
-        execution_time = time.time() - execution_time
         dist, ind = tree.query([query_vector], k=k)
+        execution_time = time.time() - execution_time
+
 
         k_nearest_neighbors = [queryset[int(i)] for i in ind[0]]
         for i in range(len(k_nearest_neighbors)):
