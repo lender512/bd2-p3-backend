@@ -19,7 +19,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class FaceVectorSerializer(serializers.HyperlinkedModelSerializer):
 
     def get_path(self, obj):
-        path = "129.146.71.229:8000/media/images"
+        path = "http://129.146.71.229:8000/media/images"
         name = "_".join(obj.name.split("_")[:-1])
         return os.path.join(path, name, obj.name)
 
