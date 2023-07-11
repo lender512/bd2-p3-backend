@@ -5,6 +5,7 @@
 - `django` para el backend y `djangorestframework` para la API
 - `RTree` para el manejo de los índices espaciales utilizando un R-Tree. El knn se implementa utilizando un R-Tree con un MBR de cada punto y el algoritmo de búsqueda de vecinos más cercanos de RTree. Soporta busqueda de vecinos más cercanos y búsqueda de vecinos más cercanos por rango.
 - `Scikit-learn` para el manejo de los índices espaciales utilizando un KD-Tree. Soporta busqueda de vecinos más cercanos y búsqueda por rango.
+  
  ![picture 1](images/0b84a1e381bf83dcac32c620f7a83f4ec074a3f81d507c31fa675b3768d58fe4.png)  
 
 ## Análisis de maldición de la dimensionalidad
