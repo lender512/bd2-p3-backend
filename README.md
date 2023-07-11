@@ -37,5 +37,4 @@ Para mostrar los resultados se implementó una aplicación web utilizando Next J
 
 ![Interfaz](images/ss_web.png)
 
-<!-- https://github.com/morphisjustfun/bd2-p3-frontend -->
-El código de la aplicación web se encuentra en el siguiente [repositorio](https://github.com/morphisjustfun/bd2-p3-frontend)
+El código de la aplicación web se encuentra en el siguiente [repositorio](https://github.com/morphisjustfun/bd2-p3-frontend).
