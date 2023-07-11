@@ -31,3 +31,11 @@ La maldision de la dimensionalidad es un fenómeno que ocurre cuando se trabaja 
 
 Se realizaron 4 experimentos por cada N, y se tomó el promedio de los tiempos par cada algoritmo. Se puede observar que el algoritmo secuencial es el más lento, y que el R-Tree y el KD-Tree son ambos más rápidos que el algoritmo secuencial. Esto se puede deber a que el R-Tree tiene peor performance cuando los datos están mucho más dispersos. En este caso, considerando que cerca del 95% de las carpetas cuentan con 1 archivo los vectores del conjunto serán sumamente diferentes entre sí, lo que provoca que estén más dispersos en conjunto, por lo que el R-Tree no tendrá un buen desempeño. Por otro lado, el KD-Tree tiene mejor desempeño cuando los datos están más dispersos, por lo que en este caso tiene mejor desempeño que el R-Tree.
 
+## Aplicación web
+
+Para mostrar los resultados se implementó una aplicación web utilizando Next JS. Esta interfaz te permite buscar las imágenes con mayor similitud a través de una serie de parámetros como el algoritmo a utilizar, el valor de K y la imagen.
+
+![Interfaz](images/ss_web.png)
+
+<!-- https://github.com/morphisjustfun/bd2-p3-frontend -->
+El código de la aplicación web se encuentra en el siguiente [repositorio](https://github.com/morphisjustfun/bd2-p3-frontend)
